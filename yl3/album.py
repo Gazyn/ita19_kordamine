@@ -1,13 +1,13 @@
 class Album:
     """klass Album
         Klassi omadused: (attributes)
-        pealkiri(str) - albumi pealkiri (title)
+        nimi(str) - albumi pealkiri (title)
         aasta(int) - albumi väljastusaasta (year)
         laulja(str) - albumi laulja (artist)
         laulud(list) - albumi laulud (songs)
     """
-    def __init__(self, pealkiri, aasta, laulja):
-        self.pealkiri = pealkiri
+    def __init__(self, nimi, aasta, laulja):
+        self.nimi = nimi
         self.aasta = aasta
         self.laulja = laulja
         self.laulud = []
