@@ -9,7 +9,7 @@ lauljad = []
 albumidOlemas = []
 lauljadOlemas = []
 
-file = open("albumid.txt", mode="r")
+file = open("albumid.txt", mode="r", encoding="UTF-8")
 for i in file:
     line = i.strip() # Salvestab rea
     splitted = line.split("\t") #List kus elemendid on: Artist, Album, Aasta, Nimi
